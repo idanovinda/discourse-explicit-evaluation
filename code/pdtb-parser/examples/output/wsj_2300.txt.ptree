@@ -1,0 +1,100 @@
+(ROOT
+  (S
+    (INTJ (UH No))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBD was) (RB n't)
+      (NP (NNP Black) (NNP Monday)))
+    (. .)))
+
+(ROOT
+  (S (CC But)
+    (SBAR (IN while)
+      (S
+        (NP (DT the) (NNP New) (NNP York) (NNP Stock) (NNP Exchange))
+        (VP (VBD did) (RB n't)
+          (VP (VB fall)
+            (PRT (RP apart))
+            (NP (NNP Friday))
+            (SBAR (IN as)
+              (S
+                (NP (DT the) (NNP Dow) (NNP Jones) (NNP Industrial) (NNP Average))
+                (VP (VBD plunged)
+                  (NP
+                    (NP (CD 190.58) (NNS points))
+                    (PRN (: --)
+                      (NP
+                        (NP (JJS most))
+                        (PP (IN of)
+                          (NP (PRP it)))
+                        (PP (IN in)
+                          (NP (DT the) (JJ final) (NN hour))))
+                      (: --))))))))))
+    (NP (PRP it))
+    (ADVP (RB barely))
+    (VP (VBD managed)
+      (S
+        (VP (TO to)
+          (VP (VB stay)
+            (NP
+              (NP (DT this) (NN side))
+              (PP (IN of)
+                (NP (NN chaos))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT Some) (`` ``) (NN circuit) (NNS breakers) ('' ''))
+      (VP (VBN installed)
+        (PP (IN after)
+          (NP (DT the) (NNP October) (CD 1987) (NN crash)))))
+    (VP (VBD failed)
+      (NP
+        (NP (PRP$ their) (JJ first) (NN test))
+        (PRN (, ,)
+          (S
+            (NP (NNS traders))
+            (VP (VBP say)))
+          (, ,))
+        (ADJP (JJ unable)
+          (S
+            (VP (TO to)
+              (VP (VB cool)
+                (NP
+                  (NP (DT the) (VBG selling) (NN panic))
+                  (PP (IN in)
+                    (NP (DT both) (NNS stocks)
+                      (CC and)
+                      (NNS futures))))))))))
+    (. .)))
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (DT The) (CD 49) (NN stock) (NN specialist) (NNS firms))
+        (PP (IN on)
+          (NP (DT the) (NNP Big) (NNP Board) (NN floor))))
+      (PRN (: --)
+        (NP
+          (NP (DT the) (NNS buyers)
+            (CC and)
+            (NNS sellers))
+          (PP (IN of)
+            (NP
+              (NP (JJ last) (NN resort))
+              (SBAR
+                (WHNP (WP who))
+                (S
+                  (VP (VBD were)
+                    (VP (VBN criticized)
+                      (PP (IN after)
+                        (NP (DT the) (CD 1987) (NN crash))))))))))
+        (: --)))
+    (ADVP (RB once) (RB again))
+    (VP (MD could) (RB n't)
+      (VP (VB handle)
+        (NP (DT the) (VBG selling) (NN pressure))))
+    (. .)))
+

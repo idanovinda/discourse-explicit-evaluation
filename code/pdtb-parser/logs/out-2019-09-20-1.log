@@ -1,0 +1,26 @@
+15:12:04.778 s.e.n.c.p.u.NestedProperties INFO  [main:52] - Loading properties from: config.properties
+15:12:04.795 s.e.n.c.p.u.NestedProperties INFO  [main:66] - OUTPUT_FOLDER_NAME : output/
+15:12:04.796 s.e.n.c.p.u.NestedProperties INFO  [main:66] - DEP_RULES_FILE : aux_data/dep_rules.txt
+15:12:04.797 s.e.n.c.p.u.NestedProperties INFO  [main:66] - WORD_PAIRS_FILE : aux_data/word_pair.txt
+15:12:04.798 s.e.n.c.p.u.NestedProperties INFO  [main:66] - MODEL_PATH : models/level_1/
+15:12:04.800 s.e.n.c.p.u.NestedProperties INFO  [main:66] - STANFORD_MODEL : aux_data/englishPCFG.ser.gz
+15:12:04.802 s.e.n.c.p.u.NestedProperties INFO  [main:66] - SEMANTIC_LEVEL : 1
+15:12:04.803 s.e.n.c.p.u.NestedProperties INFO  [main:66] - PROD_RULES_FILE : aux_data/prod_rules.txt
+15:12:04.803 s.e.n.c.p.u.NestedProperties INFO  [main:69] - Done loading properties.
+15:12:04.804 c.e.n.c.p.r.PdtbParser INFO  [main:58] - Parsing file data/SPICE-CR-XML/P1A-091_Haircut-Mortgage.xml
+15:12:04.813 s.e.n.c.p.u.Corpus INFO  [main:945] - Generating parse and dependecy trees with Stanford parser...
+15:12:06.348 s.e.n.c.p.u.Corpus INFO  [main:951] - Generating tree for: P1A-091_Haircut-Mortgage.xml
+15:12:06.992 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:0
+15:15:38.032 s.e.n.c.p.u.NestedProperties INFO  [main:52] - Loading properties from: config.properties
+15:15:38.043 s.e.n.c.p.u.NestedProperties INFO  [main:66] - OUTPUT_FOLDER_NAME : output/
+15:15:38.045 s.e.n.c.p.u.NestedProperties INFO  [main:66] - DEP_RULES_FILE : aux_data/dep_rules.txt
+15:15:38.046 s.e.n.c.p.u.NestedProperties INFO  [main:66] - WORD_PAIRS_FILE : aux_data/word_pair.txt
+15:15:38.047 s.e.n.c.p.u.NestedProperties INFO  [main:66] - MODEL_PATH : models/level_1/
+15:15:38.048 s.e.n.c.p.u.NestedProperties INFO  [main:66] - STANFORD_MODEL : aux_data/englishPCFG.ser.gz
+15:15:38.049 s.e.n.c.p.u.NestedProperties INFO  [main:66] - SEMANTIC_LEVEL : 1
+15:15:38.050 s.e.n.c.p.u.NestedProperties INFO  [main:66] - PROD_RULES_FILE : aux_data/prod_rules.txt
+15:15:38.051 s.e.n.c.p.u.NestedProperties INFO  [main:69] - Done loading properties.
+15:15:38.052 c.e.n.c.p.r.PdtbParser INFO  [main:58] - Parsing file data/SPICE-CR-XML/P1A-091_Haircut-Mortgage.xml
+15:15:38.061 s.e.n.c.p.u.Corpus INFO  [main:945] - Generating parse and dependecy trees with Stanford parser...
+15:15:39.386 s.e.n.c.p.u.Corpus INFO  [main:951] - Generating tree for: P1A-091_Haircut-Mortgage.xml
+15:15:40.060 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:0

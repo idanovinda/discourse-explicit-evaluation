@@ -1,0 +1,260 @@
+19:22:24.318 s.e.n.c.p.u.NestedProperties INFO  [main:52] - Loading properties from: config.properties
+19:22:24.340 s.e.n.c.p.u.NestedProperties INFO  [main:66] - OUTPUT_FOLDER_NAME : output/
+19:22:24.342 s.e.n.c.p.u.NestedProperties INFO  [main:66] - DEP_RULES_FILE : aux_data/dep_rules.txt
+19:22:24.343 s.e.n.c.p.u.NestedProperties INFO  [main:66] - WORD_PAIRS_FILE : aux_data/word_pair.txt
+19:22:24.344 s.e.n.c.p.u.NestedProperties INFO  [main:66] - MODEL_PATH : models/level_1/
+19:22:24.345 s.e.n.c.p.u.NestedProperties INFO  [main:66] - STANFORD_MODEL : aux_data/englishPCFG.ser.gz
+19:22:24.347 s.e.n.c.p.u.NestedProperties INFO  [main:66] - SEMANTIC_LEVEL : 1
+19:22:24.349 s.e.n.c.p.u.NestedProperties INFO  [main:66] - PROD_RULES_FILE : aux_data/prod_rules.txt
+19:22:24.349 s.e.n.c.p.u.NestedProperties INFO  [main:69] - Done loading properties.
+19:22:24.350 c.e.n.c.p.r.PdtbParser INFO  [main:58] - Parsing file /home/ida/Documents/Saarland/Research Immersion /Preprocessing/spice-output/P1A-091_Haircut-Mortgage.txt
+19:22:24.359 s.e.n.c.p.u.Corpus INFO  [main:945] - Generating parse and dependecy trees with Stanford parser...
+19:22:25.913 s.e.n.c.p.u.Corpus INFO  [main:951] - Generating tree for: P1A-091_Haircut-Mortgage.txt
+19:22:26.075 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:0
+19:22:26.718 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:1
+19:22:26.800 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:2
+19:22:26.880 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:3
+19:22:26.972 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:4
+19:22:26.997 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:5
+19:22:27.076 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:6
+19:22:27.102 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:7
+19:22:27.425 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:8
+19:22:27.500 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:9
+19:22:27.564 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:10
+19:22:28.034 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:11
+19:22:28.124 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:12
+19:22:28.183 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:13
+19:22:28.194 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:14
+19:22:28.204 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:15
+19:22:28.232 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:16
+19:22:28.244 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:17
+19:22:28.283 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:18
+19:22:28.546 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:19
+19:22:28.558 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:20
+19:22:28.607 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:21
+19:22:28.849 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:22
+19:22:28.929 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:23
+19:22:29.132 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:24
+19:22:29.187 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:25
+19:22:29.194 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:26
+19:22:29.345 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:27
+19:22:29.992 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:28
+19:22:30.484 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:29
+19:22:30.493 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:30
+19:22:30.585 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:31
+19:22:30.656 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:32
+19:22:30.673 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:33
+19:22:31.202 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:34
+19:22:31.262 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:35
+19:22:31.773 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:36
+19:22:31.781 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:37
+19:22:31.792 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:38
+19:22:31.859 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:39
+19:22:31.865 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:40
+19:22:32.106 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:41
+19:22:32.112 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:42
+19:22:32.198 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:43
+19:22:32.207 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:44
+19:22:32.248 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:45
+19:22:32.255 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:46
+19:22:32.261 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:47
+19:22:32.469 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:48
+19:22:32.478 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:49
+19:22:32.487 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:50
+19:22:32.716 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:51
+19:22:32.721 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:52
+19:22:32.746 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:53
+19:22:32.787 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:54
+19:22:33.015 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:55
+19:22:33.056 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:56
+19:22:33.068 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:57
+19:22:33.075 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:58
+19:22:33.083 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:59
+19:22:33.107 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:60
+19:22:33.112 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:61
+19:22:33.156 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:62
+19:22:33.333 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:63
+19:22:33.371 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:64
+19:22:33.382 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:65
+19:22:34.033 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:66
+19:22:34.115 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:67
+19:22:34.254 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:68
+19:22:34.419 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:69
+19:22:34.455 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:70
+19:22:34.461 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:71
+19:22:34.538 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:72
+19:22:34.544 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:73
+19:22:34.599 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:74
+19:22:34.729 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:75
+19:22:34.788 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:76
+19:22:34.813 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:77
+19:22:34.879 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:78
+19:22:35.162 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:79
+19:22:35.167 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:80
+19:22:35.339 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:81
+19:22:35.346 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:82
+19:22:35.376 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:83
+19:22:35.411 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:84
+19:22:35.461 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:85
+19:22:35.567 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:86
+19:22:35.618 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:87
+19:22:35.711 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:88
+19:22:35.721 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:89
+19:22:35.746 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:90
+19:22:35.848 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:91
+19:22:35.916 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:92
+19:22:36.326 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:93
+19:22:36.538 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:94
+19:22:36.551 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:95
+19:22:36.560 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:96
+19:22:36.589 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:97
+19:22:36.596 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:98
+19:22:36.626 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:99
+19:22:36.689 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:100
+19:22:36.698 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:101
+19:22:36.743 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:102
+19:22:36.815 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:103
+19:22:36.910 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:104
+19:22:36.929 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:105
+19:22:37.153 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:106
+19:22:37.259 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:107
+19:22:37.312 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:108
+19:22:37.319 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:109
+19:22:37.571 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:110
+19:22:37.589 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:111
+19:22:37.595 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:112
+19:22:38.097 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:113
+19:22:38.382 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:114
+19:22:38.388 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:115
+19:22:38.438 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:116
+19:22:38.443 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:117
+19:22:38.812 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:118
+19:22:38.818 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:119
+19:22:38.922 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:120
+19:22:38.930 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:121
+19:22:39.691 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:122
+19:22:39.748 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:123
+19:22:39.768 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:124
+19:22:39.842 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:125
+19:22:39.848 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:126
+19:22:39.855 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:127
+19:22:40.161 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:128
+19:22:40.177 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:129
+19:22:40.206 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:130
+19:22:40.271 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:131
+19:22:40.429 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:132
+19:22:40.759 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:133
+19:22:40.829 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:134
+19:22:40.909 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:135
+19:22:40.915 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:136
+19:22:41.029 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:137
+19:22:41.099 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:138
+19:22:41.105 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:139
+19:22:41.605 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:140
+19:22:41.687 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:141
+19:22:41.914 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:142
+19:22:41.922 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:143
+19:22:41.958 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:144
+19:22:42.179 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:145
+19:22:42.389 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:146
+19:22:42.406 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:147
+19:22:42.413 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:148
+19:22:42.547 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:149
+19:22:43.204 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:150
+19:22:43.349 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:151
+19:22:43.436 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:152
+19:22:43.585 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:153
+19:22:43.606 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:154
+19:22:43.613 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:155
+19:22:43.670 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:156
+19:22:43.920 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:157
+19:22:43.949 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:158
+19:22:43.975 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:159
+19:22:44.284 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:160
+19:22:44.388 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:161
+19:22:44.393 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:162
+19:22:48.834 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:163
+19:22:48.925 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:164
+19:22:49.446 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:165
+19:22:49.455 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:166
+19:22:49.474 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:167
+19:22:49.527 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:168
+19:22:49.534 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:169
+19:22:49.744 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:170
+19:22:49.772 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:171
+19:22:49.779 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:172
+19:22:49.786 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:173
+19:22:49.875 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:174
+19:22:49.882 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:175
+19:22:49.888 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:176
+19:22:49.915 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:177
+19:22:49.944 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:178
+19:22:50.143 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:179
+19:22:50.240 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:180
+19:22:50.743 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:181
+19:22:50.763 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:182
+19:22:50.796 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:183
+19:22:50.931 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:184
+19:22:50.937 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:185
+19:22:53.204 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:186
+19:22:53.209 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:187
+19:22:53.422 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:188
+19:22:53.444 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:189
+19:22:53.549 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:190
+19:22:53.566 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:191
+19:22:53.728 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:192
+19:22:53.784 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:193
+19:22:53.819 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:194
+19:22:54.470 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:195
+19:22:54.477 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:196
+19:22:54.583 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:197
+19:22:55.081 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:198
+19:22:55.118 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:199
+19:22:55.146 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:200
+19:22:55.345 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:201
+19:22:55.381 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:202
+19:22:55.408 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:203
+19:22:55.713 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:204
+19:22:55.880 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:205
+19:22:55.884 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:206
+19:22:55.890 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:207
+19:22:55.914 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:208
+19:22:55.985 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:209
+19:22:56.152 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:210
+19:22:56.237 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:211
+19:22:56.242 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:212
+19:22:58.472 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:213
+19:22:58.860 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:214
+19:22:58.871 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:215
+19:22:59.088 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:216
+19:22:59.153 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:217
+19:22:59.205 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:218
+19:22:59.209 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:219
+19:22:59.283 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:220
+19:22:59.522 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:221
+19:22:59.846 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:222
+19:22:59.916 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:223
+19:22:59.955 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:224
+19:22:59.981 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:225
+19:23:00.556 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:226
+19:23:00.562 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:227
+19:23:00.603 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:228
+19:23:00.639 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:229
+19:23:00.647 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:230
+19:23:00.975 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:231
+19:23:01.003 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:232
+19:23:01.015 s.e.n.c.p.u.Corpus INFO  [main:963] - Parsing line:233
+19:23:01.706 s.e.n.c.p.u.Corpus INFO  [main:976] - Tree generation for P1A-091_Haircut-Mortgage.txt is done. Trees are in /home/ida/Documents/Saarland/Research Immersion /Preprocessing/spice-output/output/P1A-091_Haircut-Mortgage.txt
+19:23:01.709 s.e.n.c.p.r.SpanTreeExtractor INFO  [main:144] - Generating the spans of each node in the parse trees.
+19:23:01.853 s.e.n.c.p.r.SpanTreeExtractor INFO  [main:189] - Done.
+19:23:01.853 c.e.n.c.p.r.PdtbParser INFO  [main:120] - Running the PDTB parser
+19:23:01.857 c.e.n.c.p.r.PdtbParser INFO  [main:122] - Running connective classifier...
+19:23:02.770 c.e.n.c.p.r.PdtbParser INFO  [main:124] - Done.
+19:23:02.772 c.e.n.c.p.r.PdtbParser INFO  [main:126] - Running argument position classifier...
+19:23:02.896 c.e.n.c.p.r.PdtbParser INFO  [main:128] - Done.
+19:23:02.902 c.e.n.c.p.r.PdtbParser INFO  [main:130] - Running argument extractor classifier...
+19:23:04.286 c.e.n.c.p.r.PdtbParser INFO  [main:133] - Done.
+19:23:04.289 c.e.n.c.p.r.PdtbParser INFO  [main:135] - Running Explicit classifier...
+19:23:04.389 c.e.n.c.p.r.PdtbParser INFO  [main:138] - Done.
+19:23:04.412 c.e.n.c.p.r.PdtbParser INFO  [main:140] - Running NonExplicit classifier...
+19:23:04.549 c.e.n.c.p.r.PdtbParser INFO  [main:143] - Done with everything. The PDTB relations for the file are in: /home/ida/Documents/Saarland/Research Immersion /Preprocessing/spice-output/output/P1A-091_Haircut-Mortgage.txt.pipe

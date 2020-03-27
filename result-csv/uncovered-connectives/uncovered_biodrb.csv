@@ -1,0 +1,169 @@
+pdtb,conll2015,syntactic,heuristic
+1 hr. after,1 hr. after,1 hr. after,1 hr. after
+10 min before,2 hours following,10 min before,10 min before
+180 seconds after,20 min later,180 seconds after,180 seconds after
+2 hours following,30 minutes prior to,2 hours following,2 hours following
+20 min later,8–12 weeks after,20 min later,20 min later
+30 minutes prior to,accordingly,30 minutes prior to,30 minutes prior to
+8–12 weeks after,additionally,8–12 weeks after,8–12 weeks after
+after which,albeit,accordingly,after which
+albeit,although;still,additionally,albeit
+although;still,appears to be due at least in part to,after which,although;still
+and/or,as a consequence of,albeit,and/or
+appears to be due at least in part to,as a result,alternatively,appears to be due at least in part to
+"as
+a direct consequence of",as early as 24 h after,although;still,"as
+a direct consequence of"
+as a consequence,as inferred by,and/or,as a consequence
+as a consequence of,based on,appears to be due at least in part to,as a consequence of
+as a result of,because of,"as
+a direct consequence of",as a result of
+as an example,between 1–2 h after,as a consequence,as an example
+as demonstrated by,both upon,as a consequence of,as demonstrated by
+as early as 24 h after,briefly,as a result,as early as 24 h after
+as inferred by,by contrast,as a result of,as inferred by
+at some point after,by the fact that,as an example,at some point after
+based on,despite the fact that,as demonstrated by,based on
+because of,due mainly to,as early as 24 h after,because of
+between 1–2 h after,except for,as inferred by,between 1–2 h after
+both in response to,except that,at some point after,both in response to
+both upon,followed 4 hours later by,based on,both upon
+briefly,forty-eight hours after,because of,briefly
+by,four days after,besides,by
+by means of,four hours after,between 1–2 h after,by means of
+by the fact that,four hours later,both in response to,by the fact that
+despite,given,both upon,despite
+despite the fact that,if;then,briefly,despite the fact that
+due mainly to,immediately after,by,due mainly to
+due to,in an effort to,by contrast,due to
+during,in comparison to,by means of,during
+e.g.,in conclusion,by the fact that,e.g.
+either;or,in consequence of,consequently,even though
+even though,in general,conversely,except for
+except for,in order for,despite,except that
+except that,in outline,despite the fact that,followed 4 hours later by
+followed 4 hours later by,in part by,due mainly to,followed by
+followed by,in part via,due to,following
+following,in summary,during,forty-eight hours after
+for,in view of the fact that,e.g.,four days after
+forty-eight hours after,insofar as,either;or,four hours after
+four days after,mainly by,even though,four hours later
+four hours after,meanwhile,except,given
+four hours later,namely,except for,hereafter
+given,none-the-less,except that,i.e.
+hereafter,nor,finally,immediately after
+i.e.,not due merely to,followed 4 hours later by,in
+if;then,not due to,followed by,in addition to
+immediately after,notably,following,in an effort to
+in,on the contrary,for,in brief
+in addition to,on the other hand,for example,in comparison to
+in an effort to,one day after,for instance,in comparison with
+in brief,only when,forty-eight hours after,in conclusion
+in comparison to,particularly since,four days after,in consequence of
+in comparison with,particularly to,four hours after,in contrast to
+in conclusion,predominantly via,four hours later,in general
+in consequence of,presumably as result of,further,in large part by
+in contrast to,primarily by,furthermore,in large part for
+in general,probably because of,given,in order for
+in large part by,regardless of,hereafter,in order to
+in large part for,such that,i.e.,in outline
+in order for,thereafter,if;then,in part by
+in order to,third,immediately after,in part via
+in outline,three days before,in,in particular because of
+in part by,two hours after,in addition,in response to
+in part via,two hours before,in addition to,in summary
+in particular because of,two years after,in an effort to,in that
+in response to,unless,in brief,in view of the fact that
+in summary,well before,in comparison to,mainly by
+in that,with,in comparison with,namely
+in view of the fact that,,in conclusion,none-the-less
+insofar as,,in consequence of,not due merely to
+mainly by,,in contrast,not due to
+namely,,in contrast to,not only;but also
+none-the-less,,in fact,not only;but;also
+not due merely to,,in general,notably
+not due to,,in large part by,now that
+not only;but also,,in large part for,on
+not only;but;also,,in order for,on the basis of
+notably,,in order to,one day after
+on,,in outline,only if
+on the basis of,,in part by,only when
+one day after,,in part via,particularly if
+only if,,in particular,particularly since
+only when,,in particular because of,particularly through
+particularly if,,in response to,particularly to
+particularly since,,in short,predominantly via
+particularly through,,in summary,presumably as result of
+particularly to,,in that,presumably due to
+predominantly via,,in turn,primarily by
+presumably as result of,,in view of the fact that,prior to
+presumably due to,,indeed,probably because of
+primarily by,,insofar as,probably due to
+prior to,,instead,provided that
+probably because of,,mainly by,regardless of
+probably due to,,meanwhile,second
+provided that,,moreover,since then
+regardless of,,namely,specifically to
+second,,nevertheless,subsequently
+since then,,next,such that
+specifically to,,none-the-less,third
+subsequently,,nonetheless,three days after
+such that,,nor,three days before
+third,,not due merely to,through
+three days after,,not due to,to
+three days before,,not only;but also,two hours after
+through,,not only;but;also,two hours before
+to,,notably,two years after
+two hours after,,now that,upon
+two hours before,,on,via
+two years after,,on the basis of,well before
+upon,,on the contrary,whilst
+via,,on the other hand,with
+well before,,once,
+whilst,,one day after,
+with,,only if,
+,,only when,
+,,or,
+,,particularly if,
+,,particularly since,
+,,particularly through,
+,,particularly to,
+,,predominantly via,
+,,presumably as result of,
+,,presumably due to,
+,,primarily by,
+,,prior to,
+,,probably because of,
+,,probably due to,
+,,provided that,
+,,rather,
+,,regardless of,
+,,second,
+,,similarly,
+,,since,
+,,since then,
+,,so,
+,,specifically,
+,,specifically to,
+,,subsequently,
+,,such that,
+,,thereafter,
+,,thereby,
+,,therefore,
+,,third,
+,,three days after,
+,,three days before,
+,,through,
+,,thus,
+,,to,
+,,two hours after,
+,,two hours before,
+,,two years after,
+,,unless,
+,,until,
+,,upon,
+,,via,
+,,well before,
+,,whereas,
+,,whilst,
+,,with,

@@ -139,18 +139,3 @@ if __name__ == "__main__":
     
     df, not_found = evaluate_conll2015()
     print("number of not found: ", len(not_found))
-#    conll_path = "wsj_23_conll2015/conll2015/"
-#    
-#
-#    for file in not_found:
-#        print(file)
-#        dir_path = conll_path + file
-#        f = open(dir_path + "/raw/" + file + ".txt", 'r').read()
-#        f.replace("-", " ")
-#        f_out = open(file+ ".txt", "w")
-#        f_out.write(f)
-#        f_out.close()
-#        command = "python2 ../Parser/conll2015_discourse/parser.py "+dir_path+" none "+dir_path
-#        os.system(command)
-#        
-#        break

@@ -36,6 +36,8 @@ def extract_explicit(pdtb_result, file_name):
 
 #%%
 def calculate_precision_recall_f1(true_label_df, predict_label_df):
+    true_label_df['Offset-raw'] = true_label_df['Offset-raw'].str.lower()
+    predict_label_df['Offset-raw'] = predict_label_df['Offset-raw'].str.lower()
     true_label_list = true_label_df.values.tolist()
     predict_label_list = predict_label_df.values.tolist()
     
@@ -72,11 +74,11 @@ def evaluate_ted_pdtb():
         f.write(json.dumps({each_file : f_result}))
         f.close()
         
-    gold_path = '../Result_v2/ted_gold.csv'
+    gold_path = '../../result-csv/ted_gold.csv'
     gold_df = pd.read_csv(gold_path, sep=',')
-    calculate_precision_recall_f1(gold_df, ted_df)
+    true_label_list, predict_label_list, intersection = calculate_precision_recall_f1(gold_df, ted_df)
     
-    return ted_df, gold_df
+    return ted_df, gold_df, intersection
 
 def extract_spice_pdtb():
     prev_path = "/home/ida/Documents/Saarland/ResearchImmersion/Parser/pdtb-parser/data/SPICE/"

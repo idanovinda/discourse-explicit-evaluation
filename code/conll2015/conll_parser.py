@@ -61,20 +61,16 @@ def extract_dependency_triplets(dependency_list):
 				'%s-%s' % (relation['dependent']['#text'], relation['dependent']['@idx']))
 		new_relations.append(new_relation)
 	return new_relations
-#%%
+
 def splitted_string(string):
     splitted = []
     max_length = 10000
     paragraph = string.split("\n\n")
     onefile = ""
     for par in paragraph: 
-        #split paragraph into sentences
         sents = par.split('.')
-#        print(sents)
-#        print(onefile)
         for sent in sents:
             if sent != "":
-#                print("sent\t", sent)
                 new_len = len(onefile) + len(sent) + 1
                 if len(sent) > max_length:
                     print(len(sent))
@@ -88,7 +84,7 @@ def splitted_string(string):
         onefile = onefile + "\n\n"
     splitted.append(onefile)
     return splitted
-#%%
+
 def run_biodrb():
     fileext = '.txt'
     path = "bio-cut/"
@@ -136,27 +132,10 @@ def run_spice():
             f_out.write(output)
             f_out.close()
                     
-def run_biodrb_one(number):
-    filename = "raw_"+str(number)
-    in_path = "bio-cut/"+filename+".txt"
-    out_path = filename+".json"
-    f = open(in_path, "r").read()
-    f = remove_space(f)
-    anot_f = text_parser(f)
-    result_json = xml2json(anot_f)
-    output = json.dumps({filename: result_json})
-    output = re.sub(" +", " ", re.sub(r"(?<!\\)\\n|\n", " ", output))
-    f_out = open(out_path, "w")
-    f_out.write(output)
-    f_out.close()
-
-def remove_space(file):
-    newfile = file.replace(". ", ".")
-    return newfile
 
 def run_wsj_23():
-    path = "wsj_23_conll2015/conll2015/wsj_2300/raw/"
-    dest = "wsj_23_conll2015/"
+    path = "../../data/wsj_23/raw/"
+    dest = "../../data/wsj_23/output-coreNLP/"
     i = 1
     
     extracted_files = [x.split(".")[0] for x in os.listdir(dest)]
@@ -165,7 +144,7 @@ def run_wsj_23():
         print(file, i)
         i+=1
 #        if file not in extracted_files:
-        f = open(path+file, 'r', encoding="ascii", errors="backslashreplace").read()
+        f = open(path+file, 'r', encoding="utf-8", errors="replace").read()
         output_filepath = dest + file + '.json'
         anot_f = text_parser(f)
         print("Finished parsing")
@@ -177,32 +156,6 @@ def run_wsj_23():
         f_out.close()
 
 
-#%%
-if __name__=="__main__":
-      
-    path = "/home/ida/Documents/Saarland/ResearchImmersion/Parser/bio-parser/BioDRB/GeniaRaw/Genia/"
-    output_path = "new_biodrb/"
-    
-    for file in os.listdir(path):
-        filename = file[:-4]
-        print(filename)
-        output_file = output_path + filename +".json"
-#        print(output_file)
-        f = open(path+file, 'r').read()
-        # print(">>>>", len(f))
-        if (filename + '.json') not in os.listdir(output_path):
-            try:
-                
-                anot_f = text_parser(f)
-                print("Finished parsing")
-                result_json = xml2json(anot_f)
-                output = json.dumps({filename: result_json})
-                output = re.sub(" +", " ", re.sub(r"(?<!\\)\\n|\n", " ", output))
-                f_out = open(output_file, "w")
-                f_out.write(output)
-                f_out.close()
-            except:
-                print("the file is too long...")
-
-            
+if __name__ == "__main__":
+    run_wsj_23()
             

@@ -48,6 +48,9 @@ def extracting_conn_only_from_result(result, file_name):
     return conn_df
     
 def calculate_precision_reacall_f1(true_label_df, predict_label_df):
+    true_label_df['Offset-raw'] = true_label_df['Offset-raw'].str.lower()
+    predict_label_df['Offset-raw'] = predict_label_df['Offset-raw'].str.lower()
+    
     true_label_list = true_label_df.values.tolist()
     predict_label_list = predict_label_df.values.tolist()
     
@@ -81,7 +84,7 @@ def evaluate_ted_conll2015():
         ted_df = ted_df.append(result_conn)
 
     #open the gold dataset
-    gold_path = '/home/ida/Documents/Saarland/ResearchImmersion/Result/ted_gold.csv'
+    gold_path = '../../result-csv/ted_gold.csv'
     gold_df = pd.read_csv(gold_path)
     
     return ted_df, gold_df

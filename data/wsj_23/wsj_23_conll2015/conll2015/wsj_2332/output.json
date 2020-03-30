@@ -1,0 +1,1 @@
+{"conn_name": "but", "DocID": "wsj_2332", "Arg1": {"TokenList": [126, 127, 128, 129, 130]}, "Arg2": {"TokenList": [133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148]}, "Connective": {"TokenList": [132]}, "Arg2_sent_index": 6, "conn_sent_offset": [6], "Sense": ["Comparison.Contrast"], "Arg1_sent_index": 6, "Type": "Explicit", "ID": 0}

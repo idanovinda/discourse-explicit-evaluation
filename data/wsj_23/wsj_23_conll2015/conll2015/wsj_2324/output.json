@@ -1,0 +1,1 @@
+{"conn_name": "as", "DocID": "wsj_2324", "Arg1": {"TokenList": [41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51]}, "Arg2": {"TokenList": [31, 32, 33, 34, 35, 36, 37, 38, 39]}, "Connective": {"TokenList": [30]}, "Arg2_sent_index": 3, "conn_sent_offset": [0], "Sense": ["Temporal.Synchrony"], "Arg1_sent_index": 3, "Type": "Explicit", "ID": 0}

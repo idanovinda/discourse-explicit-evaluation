@@ -1,0 +1,1 @@
+{"conn_name": "before", "DocID": "wsj_2392", "Arg1": {"TokenList": [108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118]}, "Arg2": {"TokenList": [120, 121, 122, 123]}, "Connective": {"TokenList": [119]}, "Arg2_sent_index": 5, "conn_sent_offset": [15], "Sense": ["Temporal.Asynchronous.Precedence"], "Arg1_sent_index": 5, "Type": "Explicit", "ID": 0}

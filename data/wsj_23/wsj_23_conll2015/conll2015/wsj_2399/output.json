@@ -1,0 +1,1 @@
+{"conn_name": "while", "DocID": "wsj_2399", "Arg1": {"TokenList": [439, 440, 441]}, "Arg2": {"TokenList": [444, 445, 446, 447, 448, 449]}, "Connective": {"TokenList": [443]}, "Arg2_sent_index": 18, "conn_sent_offset": [15], "Sense": ["Comparison.Contrast"], "Arg1_sent_index": 18, "Type": "Explicit", "ID": 0}

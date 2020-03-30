@@ -10,9 +10,9 @@ import pandas as pd
 
 
 if __name__ == "__main__":
-#    methods = ['pdtb', 'conll2015', 'syntactic', 'heuristic']
-    methods = ['syntactic']
-    dataset = 'ted'
+    methods = ['pdtb', 'conll2015', 'syntactic', 'heuristic']
+#    methods = ['syntactic']
+    dataset = 'spice'
     
     #specify directories of each file
     path = "../result-csv/"
@@ -23,6 +23,7 @@ if __name__ == "__main__":
     for each in methods:
         
         gold = pd.read_csv (path + dataset + "_gold.csv")['Offset-raw'].str.lower()
+        gold = pd.Series([x.strip() for x in gold])
         pred = pd.read_csv (path + dataset + "_pred_" + each + ".csv")['Offset-raw'].str.lower()
         tp = pd.read_csv ( path + dataset + "_truepositive_" + each + ".csv" ) ['Offset-raw'].str.lower()
         not_detect = list(set(gold)-set(pred))

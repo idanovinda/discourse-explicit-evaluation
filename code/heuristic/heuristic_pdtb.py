@@ -111,7 +111,7 @@ def extract_spice_pred(pred_df):
 #        print(each_file)
         raw_file_path = raw_path + each_file + '.txt'
         pred_file = pred_df[pred_df['filename']==each_file]
-        pred_file['start'] = [int(pred_file.loc[x]['ConnSpanList'].split("..")[0]) for x in pred_file.index]
+        pred_file['start'] = [int(pred_file.loc[x, 'ConnSpanList'].split("..")[0]) for x in pred_file.index]
         pred_file = pred_file.sort_values(['start']).reset_index()
         try:
             f_string = open(raw_file_path, 'r').read()
@@ -155,7 +155,7 @@ def evaluate_spice(gold_df, pred_conn):
     gold_dict = {}
     for i in gold_df.index:
         filename = gold_df.loc[i]['filename']
-        conn = gold_df.loc[i]['conn'].lower().strip()
+        conn = gold_df.loc[i]['Offset-raw'].lower().strip()
         fullSent = gold_df.loc[i]['fullSent'].lower().strip(punctuation).strip()
         if filename not in gold_dict:
             gold_dict[filename] = {}
@@ -216,18 +216,18 @@ if __name__ == "__main__":
 #    gold_bio = pd.read_csv("../../result-csv/biodrb_gold.csv")
 #    tp_bio = calculate_precision_recall_f1(gold_bio, pred_bio)
 #    
-    print("Evaluate ted...")
-    pred_ted = run_heuristic_pdtb(tedpath) 
-    gold_ted = pd.read_csv("../../result-csv/ted_gold.csv")
-    tp_ted = calculate_precision_recall_f1(gold_ted, pred_ted)
-    
+#    print("Evaluate ted...")
+#    pred_ted = run_heuristic_pdtb(tedpath) 
+#    gold_ted = pd.read_csv("../../result-csv/ted_gold.csv")
+#    tp_ted = calculate_precision_recall_f1(gold_ted, pred_ted)
+#    
 #    print("Evaluate wsj...")
 #    pred_wsj = run_heuristic_pdtb(wsjpath)
 #    gold_wsj = pd.read_csv("../../../Result_v2/wsj_23_gold.csv")
 #    tp_wsj = calculate_precision_recall_f1(gold_wsj, pred_wsj)
-#
-#    print("Evaluate spice...")
-#    spicepath = "../../data/SPICE/raw/"
-#    pred_spice = run_heuristic_pdtb(spicepath)
-#    gold_spice = pd.read_csv("../../result-csv/spice_gold.csv")
-#    gold, tp_spice, pred = evaluate_spice(gold_spice, pred_spice)
+#%%
+    print("Evaluate spice...")
+    spicepath = "../../data/SPICE/raw/"
+    pred_spice = run_heuristic_pdtb(spicepath)
+    gold_spice = pd.read_csv("../../result-csv/spice_gold.csv")
+    gold, tp_spice, pred = evaluate_spice(gold_spice, pred_spice)

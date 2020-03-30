@@ -14,7 +14,7 @@ import json
 
 
 def organize_folder():
-    raw_path = "../discourse-explicit/data/BioDRB/Genia Raw/"
+    raw_path = "../../data/BioDRB/Genia Raw/"
     parses_path = "new_biodrb/"
     dest_path = "new_biodrb_conll2015/"
     

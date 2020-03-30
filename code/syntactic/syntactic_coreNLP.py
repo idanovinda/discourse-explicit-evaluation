@@ -290,28 +290,28 @@ if __name__ == "__main__":
     pred_ted, conn_ted = run_syntactic(ted_filepath)
     new_gold_ted, tp_ted = evaluate(ted_gold, pred_ted)
     
-#    print('Evaluated biodrb...')
-#    biodrb_filepath = '../../data/BioDRB/input_biodrb_conll2015/'
-#    biodrb_gold = pd.read_csv('../../result-csv/biodrb_gold.csv')
-#    biodrb_gold['Offset-raw'] = biodrb_gold['Offset-raw'].str.lower()
-#    biodrb_gold['filename'] = biodrb_gold['filename'].apply(str)
-#    pred_biodrb, conn_biodrb = run_syntactic(biodrb_filepath)
-#    new_gold_biodrb, tp_biodrb = evaluate(biodrb_gold, pred_biodrb)
-#    
-#    print('Evaluate wsj 23...')
-#    wsj_filepath = '../../data/wsj_23/wsj_23_conll2015/conll2015/'
-#    wsj_gold = pd.read_csv('../../result-csv/wsj_23_gold.csv')
-#    wsj_gold['Offset-raw'] = wsj_gold['Offset-raw'].str.lower()
-#    pred_wsj, conn_wsj = run_syntactic(wsj_filepath)
-#    new_gold_wsj, tp_wsj = evaluate(wsj_gold, pred_wsj)
-#
-#    print('Evaluate spice...')
-#    spice_filepath = '../../data/SPICE/conll2015/'
-#    pred_spice, conn_spice = run_syntactic(spice_filepath)
-#    spice_gold = pd.read_csv("../../result-csv/spice_gold.csv")
-#    new_gold, tp_spice, pred_spice = evaluate_spice(spice_gold, pred_spice)
+    print('Evaluated biodrb...')
+    biodrb_filepath = '../../data/BioDRB/input_biodrb_conll2015/'
+    biodrb_gold = pd.read_csv('../../result-csv/biodrb_gold.csv')
+    biodrb_gold['Offset-raw'] = biodrb_gold['Offset-raw'].str.lower()
+    biodrb_gold['filename'] = biodrb_gold['filename'].apply(str)
+    pred_biodrb, conn_biodrb = run_syntactic(biodrb_filepath)
+    new_gold_biodrb, tp_biodrb = evaluate(biodrb_gold, pred_biodrb)
     
-    #%%
+    print('Evaluate wsj 23...')
+    wsj_filepath = '../../data/wsj_23/wsj_23_conll2015/conll2015/'
+    wsj_gold = pd.read_csv('../../result-csv/wsj_23_gold.csv')
+    wsj_gold['Offset-raw'] = wsj_gold['Offset-raw'].str.lower()
+    pred_wsj, conn_wsj = run_syntactic(wsj_filepath)
+    new_gold_wsj, tp_wsj = evaluate(wsj_gold, pred_wsj)
+
+    print('Evaluate spice...')
+    spice_filepath = '../../data/SPICE/conll2015/'
+    pred_spice, conn_spice = run_syntactic(spice_filepath)
+    spice_gold = pd.read_csv("../../result-csv/spice_gold.csv")
+    new_gold, tp_spice, pred_spice = evaluate_spice(spice_gold, pred_spice)
+    
+#    %%
 #    not_found_files = ['talk_2009_en', 'talk_1978_en']
 #    
 #    new_gold = []

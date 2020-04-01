@@ -133,23 +133,20 @@ def run_spice():
             f_out.close()
                     
 
-def run_wsj_23():
-    path = "../../data/wsj_23/raw/"
-    dest = "../../data/wsj_23/output-coreNLP/"
-    i = 1
+def run_parser(path, dest):
+    #receive ted or wsj_23 directory
     
     extracted_files = [x.split(".")[0] for x in os.listdir(dest)]
     
     for file in os.listdir(path):
-        print(file, i)
-        i+=1
+        print(file)
 #        if file not in extracted_files:
-        f = open(path+file, 'r', encoding="utf-8", errors="replace").read()
-        output_filepath = dest + file + '.json'
+        f = open(path+file, 'r', encoding="utf-8", errors="ignore").read()
+        output_filepath = dest + file.split(".")[0] + '.json'
         anot_f = text_parser(f)
         print("Finished parsing")
         result_json = xml2json(anot_f)
-        output = json.dumps({file: result_json})
+        output = json.dumps({file.split(".")[0]: result_json})
         output = re.sub(" +", " ", re.sub(r"(?<!\\)\\n|\n", " ", output))
         f_out = open(output_filepath, "w")
         f_out.write(output)
@@ -157,5 +154,10 @@ def run_wsj_23():
 
 
 if __name__ == "__main__":
-    run_wsj_23()
+    wsj_path = "../../data/wsj_23/raw/"
+    wsj_dest = "../../data/wsj_23/output-coreNLP/"
+    
+    ted_path = "../../data/Ted-Talk/raw/"
+    ted_dest = "../../data/Ted-Talk/new_corenlp_output/"
+    run_parser(ted_path, ted_dest)
             

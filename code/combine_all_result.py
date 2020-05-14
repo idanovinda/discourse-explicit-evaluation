@@ -10,7 +10,7 @@ import pandas as pd
 
 if __name__ == "__main__":
     methods = ['pdtb', 'conll2015', 'syntactic', 'heuristic']
-    dataset = 'spice'
+    dataset = 'ted'
     
     #specify directories of each file
     path = "../result-csv/"
@@ -70,8 +70,8 @@ if __name__ == "__main__":
     for each in methods:
         colname_p = each+'_P'
         colname_r = each+'_R'
-        pr_df[colname_p] = df[each+'_TP']/df[each+'_GS']
-        pr_df[colname_r] = df[each+'_TP']/df[each+'_PR']
+        pr_df[colname_r] = df[each+'_TP']/df[each+'_GS']
+        pr_df[colname_p] = df[each+'_TP']/df[each+'_PR']
         
 
     df.fillna(0, inplace=True)

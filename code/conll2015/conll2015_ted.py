@@ -166,7 +166,7 @@ def calculate_precision_recall_f1(true_label_df, predict_label_df):
 
 if __name__ == "__main__":
 #    organize_folder()
-#    run_conll2015()
+    # run_conll2015()
     df, not_found = evaluate_conll2015()
     ted_df = pd.read_csv("../../result-csv/ted_gold.csv")
     tpdf = calculate_precision_recall_f1(ted_df, df)
